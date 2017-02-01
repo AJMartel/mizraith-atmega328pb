@@ -7,11 +7,9 @@ using the Arduino build environment.  There is no additional compiler needed.
 Arduino IDE 1.6.9 or higher which contains avr-gcc in Version 4.9.2
 
 ### Install
-Copy this link into your Arduino IDE.
-
-**https://raw.githubusercontent.com/mizraith/mizraith-atmega328pb/master/package_atmega328pb_index.json**
-
-Run "Bord Manager" -> Contributed -> Atmega328PB -> _Install_
+Copy this link into your Arduino IDE under Preferences:
+**https://raw.githubusercontent.com/mizraith/mizraith-atmega328pb/master/package_mizraith_atmega328pb_index.json**
+Run "Board Manager" -> Contributed -> Atmega328PB -> _Install_
 
 ### Hardware
 
