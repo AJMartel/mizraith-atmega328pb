@@ -16,7 +16,7 @@
 	           "version": "1.0.0",
 	           "category": "Contributed",
 	           "url": "https://github.com/mizraith/mizraith-atmega328pb/raw/master/mizraith_atmega328pb_pack_1.0.0.zip",
-			   "checksum": "SHA-256:7a905547b78d84193d6cf37398015e8f3325c04bf76d76988d40e1e07a7ede56",
+			   "checksum": "SHA-256:548d4fc1e54372af92d0827332cdb0a10778569b469bee7c77475fb570064fb4",
 	           "archiveFileName": "mizraith_atmega328pb_pack_1.0.0.zip",
 	           "size": "99701", 
 	           "boards":
