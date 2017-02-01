@@ -29,6 +29,6 @@ all I was doing was modifying board names) has taken an hour.
 This file set was created on a mac. 
    The stuff was all throwin into a 1_0_0 folder then compressed.
    Macintrash was removed with  ` zip -d myzip_pack_1.0.0.zip "__MACOSX*" ` 
-   To calculate the SHA-256 checksum, "sha -a 256  myzipfile.zip" was used.
+   To calculate the SHA-256 checksum, `sha -a 256  myzipfile.zip` was used.
    
 
