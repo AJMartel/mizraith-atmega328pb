@@ -1,11 +1,7 @@
-# Arduino Atmega328PB Package
-## Support for the new Atmel Chip
+# Arduino Atmega328PB Package by mizraith
 
-
-This is the worldwide first real Atmega328PB support package for Arduino! No hooks.
-Look at my uino-hardware Repo for Schematic of my Boards.
-This package lets you compile your code for the Atmel Atmega328PB Microcontroller. There is no additionally compiler needed. You can compile out of the box.
-
+This package lets you compile your code for the Atmel Atmega328PB Microcontroller
+using the Arduino build environment.  There is no additional compiler needed. 
 
 ### Requirements 
 Arduino IDE 1.6.9 or higher which contains avr-gcc in Version 4.9.2
@@ -13,13 +9,14 @@ Arduino IDE 1.6.9 or higher which contains avr-gcc in Version 4.9.2
 ### Install
 Copy this link into your Arduino IDE.
 
-**https://raw.githubusercontent.com/amoehl/uino-atmega328pb/master/package_atmega328pb_index.json**
+**https://raw.githubusercontent.com/mizraith/mizraith-atmega328pb/master/package_atmega328pb_index.json**
 
 Run "Bord Manager" -> Contributed -> Atmega328PB -> _Install_
 
 ### Hardware
 
-This Package currently supports only my own developed boards. 
-More Information: https://github.com/amoehl/uino-hardware
+This package is intended to support mizraith's boards.  Thanks amoehl for
+the template!  Modify for your own use, of course.
+
 
 
