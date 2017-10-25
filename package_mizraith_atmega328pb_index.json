@@ -21,7 +21,7 @@
 	           "size": "99701", 
 	           "boards":
 				[
-	              { "name": "LP_v1" }
+	              { "name": "LP_v2" }
 	           	],
 	           "toolsDependencies":
 				[				

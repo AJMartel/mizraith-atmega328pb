@@ -2,27 +2,31 @@
 
 ##############################################################
 
-LP_v1.name=LP_v1
-LP_v1.upload.tool=avrdude
-LP_v1.upload.protocol=arduino
-LP_v1.upload.maximum_size=32256
-LP_v1.upload.maximum_data_size=2048
-LP_v1.upload.speed=57600
+LP_v2.name=LP_v2
+#LP_v2.bootloader.file=optiboot/optiboot_atmega328pb_20MHz.hex
+LP_v2.bootloader.file=optiboot/optiboot_m328pb_autobaud.hex
+LP_v2.bootloader.unlock_bits=0x3F
+LP_v2.bootloader.lock_bits=0x0F
+LP_v2.bootloader.low_fuses=0xE2
+LP_v2.bootloader.high_fuses=0xDE
+LP_v2.bootloader.extended_fuses=0x05
 
-LP_v1.bootloader.tool=avrdude
-# PROGRAM FOR INTERNAL 8MHZ CLOCK
-LP_v1.bootloader.low_fuses=0xE2
-LP_v1.bootloader.high_fuses=0xDE
-LP_v1.bootloader.extended_fuses=0x05
-LP_v1.bootloader.unlock_bits=0x3F
-LP_v1.bootloader.lock_bits=0x0F
-#LP_v1.bootloader.file=optiboot/optiboot_atmega328pb_20MHz.hex
-LP_v1.bootloader.file=optiboot/optiboot_m328pb_autobaud.hex
+LP_v2.upload.tool=avrdude
+LP_v2.upload.protocol=arduino
+LP_v2.upload.maximum_size=32256
+LP_v2.upload.maximum_data_size=2048
+LP_v2.upload.speed=57600
+LP_v2.build.mcu=atmega328pb 
+LP_v2.build.board=AVR_LP_v2
+LP_v2.build.core=arduino:arduino
+LP_v2.build.variant=LP_v2
 
-LP_v1.build.f_cpu=8000000L
-LP_v1.build.board=AVR_LP_v1
-LP_v1.build.core=arduino:arduino
-LP_v1.build.variant=LP_v1
-LP_v1.build.mcu=atmega328pb 
+LP_v2.build.f_cpu=8000000L
+LP_v2.menu.speed.8mhz=8 MHz INT
+LP_v2.menu.speed.8mhz.build.f_cpu=8000000L
+LP_v2.menu.speed.8mhz.bootloader.low_fuses=0xE2
+LP_v2.menu.speed.1mhz=1 MHz INT
+LP_v2.menu.speed.1mhz.build.f_cpu=1000000L
+LP_v2.menu.speed.1mhz.bootloader.low_fuses=0x62
 
 ##############################################################
